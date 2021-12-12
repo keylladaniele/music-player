@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="material-icons">expand_more</i>
+            <span>Tocando agora</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+        <div class="img-area">
+            <img src="/imagens/musica2.jpg" alt="">
+        </div>
+        <div class="song-details">
+            <p class="name">When You Call - Life is Strange</p>
+            <p class="artist">Cyrus Reynolds ft. BELLSAINT</p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+                <span></span>
+            </div>
+            <div class="timer">
+                <span class="current">0:20</span>
+                <span class="current">2:49</span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+            <div class="controls">
+                <i id="repeat-playlist" class="material-icons">repeat</i>
+                <i id="prev" class="material-icons">skip_previous</i>
+                <div class="play-pause">
+                    <i class="material-icons">play_arrow</i>
+                </div>
+                <i id="next" class="material-icons">skip_next</i>
+                <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+                <div class="header">
+                    <div class="row">
+                        <i class="material-icons">queue_music</i>
+                        <span>Lista de músicas</span>
+                    </div>
+                    <i id="close" class="material-icons">close</i>
+                </div>
+                <ul>
+                    <li>
+                        <div class="row">
+                            <span>When Am I Gonna Lose You</span>
+                            <p>Local Natives</p>
+                        </div>
+                        <span class="audio-duration">4:30</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>When Am I Gonna Lose You</span>
+                            <p>Local Natives</p>
+                        </div>
+                        <span class="audio-duration">4:30</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>When Am I Gonna Lose You</span>
+                            <p>Local Natives</p>
+                        </div>
+                        <span class="audio-duration">4:30</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>When Am I Gonna Lose You</span>
+                            <p>Local Natives</p>
+                        </div>
+                        <span class="audio-duration">4:30</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>When Am I Gonna Lose You</span>
+                            <p>Local Natives</p>
+                        </div>
+                        <span class="audio-duration">4:30</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
